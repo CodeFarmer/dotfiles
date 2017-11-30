@@ -1,0 +1,48 @@
+- [ ] Sparky Linux
+
+- [ ] packages
+  - [ ] awesome
+    - configure lightdm from landing screen
+  - [ ] emacs
+  - [ ] openjdk-8-jdk
+  - [ ] git
+  - [ ] thunderbird
+  - [ ] not in debian but are in sparky
+    - [ ] dropbox
+    - [ ] steam
+
+- [ ] Environment
+
+  - [ ] .xsessionrc
+    - [ ] Screen resolution
+      - xrandr --output eDP-1 --mode 1920x1080 & # eDP-1 from xrandr
+      - xrandr --output DP-3-1 --auto --left-of eDP-1 # second monitor, ditto
+    - [ ] caps lock key
+      - xmodmap -e 'clear Lock'
+      - xmodmap -e 'keycode 66 = Control_R' # use xev to find keycode if necessary
+      - xmodmap -e 'add Control = Control_R'
+    - [ ] disable trackpad
+      - https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
+      - xinput set-prop 12 144 0
+    - [ ] blueman-applet
+
+  - [ ] .bashrc
+  - [ ] .emacs
+
+  - [ ] config/awesome/rc.lua
+    - [ ] switch opening two layouts
+    - [ ] battery monitor
+      - https://github.com/deficient/battery-widget
+    - [ ] wireless widget
+    - [ ] volume control
+
+
+- [ ] emacs packages
+  - [ ] cider
+  - [ ] paredit
+  - [ ] zenburn
+
+- [ ] lein
+- [ ] slack
+- [ ] mono?
+- [ ] zoom?

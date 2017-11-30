@@ -1,0 +1,69 @@
+* Stage one - get the basics
+
+- [ ] Install Cygwin
+  - https://www.cygwin.com/setup-x86_64.exe
+  - Basic install plus:
+    - emacs-w32
+    - vim
+    - curl
+    - wget
+    - openssh
+    - zip
+    - unzip
+    - git
+    - inetutils
+    - nc
+    - chere
+    - dos2unix
+    - jq
+
+- [ ] Install SharpKeys
+  - https://github.com/randyrants/sharpkeys/releases
+    - [ ] And map 'Special: Caps Lock' to 'Special: Left Control'
+
+- [ ] Install Chrome
+  - https://slack.com/downloads/windows
+- [ ] Install Slack
+  - https://slack.com/downloads/windows
+- [ ] Install JDK
+  - http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html
+
+- [ ] Install Dropbox
+  - https://www.dropbox.com/install
+
+- [ ] Install Zoom
+  - https://zoom.us/download
+
+* Setup shell environment
+
+- [ ] Set $HOME in Windows environment variables to the Windows user home
+- [ ] Add Cygwin bin directory to Windows Path environment variable
+  - This means you can ls in CMD, and also means that bash always has
+    the tools even when started by some random Windows process
+- [ ] Open a Cygwin terminal and clone this repo
+- [ ] Unpack .bash_profile
+- [ ] Unpack .path
+  - may need adjustments for JAVA_HOME etc
+- [ ] Unpack .alias
+  - [ ] Add explorer link
+    - alias x="explorer.exe \`cygpath -w \$PWD\`"
+- [ ] Unpack .emacs
+- [ ] Unpack bin
+- [ ] SSH key
+  - [ ] ssh-keygen
+  - [ ] add to Github account
+
+* Get Leiningen
+
+- [ ] Get Leiningen
+  - https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
+  - into $HOME/bin
+
+* Setup Emacs
+
+- [ ] packages
+  - CIDER
+  - paredit
+  - highlight-parentheses
+  - zenburn
+- [ ] Set zenburn theme in Options and save changes
