@@ -1,0 +1,14 @@
+source $HOME/.path
+
+xrandr --output eDP-1 --mode 1920x1080
+
+# turn caps lock into another ctrl
+xmodmap -e 'clear Lock'
+xmodmap -e 'keycode 66 = Control_R'
+xmodmap -e 'add Control = Control_R'
+
+# disable touchpad
+xinput set-prop 12 144 0
+
+/usr/bin/x-terminal-emulator &
+
