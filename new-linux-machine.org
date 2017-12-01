@@ -26,8 +26,6 @@
     - [ ] disable trackpad
       - https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
       - xinput set-prop 12 144 0
-    - [ ] blueman-applet
-    - [ ] nm-applet
 
   - [ ] .bashrc
   - [ ] .emacs
@@ -39,8 +37,9 @@
     - [ ] volume control
       - https://github.com/deficient/volume-control
     - [ ] dropbox
-      - awful.util.spawn("dropbox start
-
+      - awful.util.spawn("dropbox start")
+    - [ ] blueman-applet (ditto)
+    - [ ] nm-applet (ditto)
 
 
 - [ ] emacs packages
