@@ -1,4 +1,5 @@
 - [ ] Sparky Linux
+  - desktop rolling xfce
 
 - [ ] packages
   - [ ] awesome
@@ -7,6 +8,7 @@
   - [ ] openjdk-8-jdk
   - [ ] git
   - [ ] thunderbird
+  - [ ] pulseaudio-module-bluetooth
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
