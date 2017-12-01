@@ -13,5 +13,7 @@ xinput set-prop 12 144 0
 blueman-applet &
 nm-applet &
 
+dropbox start
+
 /usr/bin/x-terminal-emulator &
 

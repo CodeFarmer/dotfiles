@@ -27,6 +27,7 @@
       - https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
       - xinput set-prop 12 144 0
     - [ ] blueman-applet
+    - [ ] nm-applet
 
   - [ ] .bashrc
   - [ ] .emacs
@@ -35,8 +36,11 @@
     - [ ] switch opening two layouts
     - [ ] battery monitor
       - https://github.com/deficient/battery-widget
-    - [ ] wireless widget
     - [ ] volume control
+      - https://github.com/deficient/volume-control
+    - [ ] dropbox
+      - awful.util.spawn("dropbox start
+
 
 
 - [ ] emacs packages
