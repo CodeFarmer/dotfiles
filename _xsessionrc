@@ -10,5 +10,8 @@ xmodmap -e 'add Control = Control_R'
 # disable touchpad
 xinput set-prop 12 144 0
 
+blueman-applet &
+nm-applet &
+
 /usr/bin/x-terminal-emulator &
 
