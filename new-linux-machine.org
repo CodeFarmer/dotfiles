@@ -5,10 +5,13 @@
   - [ ] awesome
     - configure lightdm from landing screen
   - [ ] emacs
-  - [ ] openjdk-8-jdk
+  - [ ] java
+    - [ ] openjdk-8-jdk
+    - [ ] openjdk-8-doc
   - [ ] git
   - [ ] thunderbird
   - [ ] pulseaudio-module-bluetooth
+  - [ ] gimp
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
@@ -49,5 +52,9 @@
 
 - [ ] lein
 - [ ] slack
-- [ ] mono?
-- [ ] zoom?
+- [ ] dotnet
+  - [ ] mono
+  - [ ] dotnet-core
+  - [ ] VS Code
+    - xdg-mime default Thunar.desktop inode/directory # this is super annoying
+- [ ] zoom

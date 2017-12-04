@@ -1,4 +1,4 @@
-source $HOME/.path
+. $HOME/.path
 
 xrandr --output eDP-1 --mode 1920x1080
 
