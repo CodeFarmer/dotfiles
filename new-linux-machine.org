@@ -58,3 +58,10 @@
   - [ ] VS Code
     - xdg-mime default Thunar.desktop inode/directory # this is super annoying
 - [ ] zoom
+
+- [ ] node bollocks
+  - [ ] nvm
+    - https://github.com/creationix/nvm#install-script
+  - [ ] yarn
+    - don't use the deb if you're using nvm/n/etc
+    - https://yarnpkg.com/en/docs/install#alternatives-tab
