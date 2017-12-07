@@ -1,2 +1,2 @@
-source .alias
-source .path
+source $HOME/.alias
+source $HOME/.path
