@@ -12,6 +12,8 @@
   - [ ] thunderbird
   - [ ] pulseaudio-module-bluetooth
   - [ ] gimp
+  - [ ] okular
+    - purely because the default to libreoffice for PDFs is so annoying
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
