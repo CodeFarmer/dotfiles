@@ -10,7 +10,6 @@
     - [ ] openjdk-8-jdk
     - [ ] openjdk-8-doc
   - [ ] git
-  - [ ] thunderbird
   - [ ] pulseaudio-module-bluetooth
   - [ ] gimp
   - [ ] okular
@@ -30,13 +29,16 @@
       - xmodmap -e 'keycode 66 = Control_R' # use xev to find keycode if necessary
       - xmodmap -e 'add Control = Control_R'
     - [ ] disable trackpad
-      - https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
-      - xinput set-prop 12 144 0
+      - from https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
+      - xinput list
+      - xinput list-props <n>
+      - xinput set-prop <n> <m> 0
 
   - [ ] .bashrc
   - [ ] .emacs
 
   - [ ] config/awesome/rc.lua
+    - template from /etc/xdg/awesome/rc.lua
     - [ ] switch opening two layouts
     - [ ] battery monitor
       - https://github.com/deficient/battery-widget
@@ -52,6 +54,7 @@
   - [ ] cider
   - [ ] paredit
   - [ ] zenburn
+  - [ ] highlight-parentheses-mode
 
 - [ ] lein
 - [ ] slack
