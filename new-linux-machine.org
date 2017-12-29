@@ -28,6 +28,8 @@
       - xmodmap -e 'clear Lock'
       - xmodmap -e 'keycode 66 = Control_R' # use xev to find keycode if necessary
       - xmodmap -e 'add Control = Control_R'
+    - [ ] compose key
+      - xmodmap -e 'keycode 108 = Multi_key' # xev again
     - [ ] disable trackpad
       - from https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
       - xinput list
@@ -59,8 +61,10 @@
 - [ ] lein
 - [ ] slack
 - [ ] dotnet
-  - [ ] mono
-  - [ ] dotnet-core
+  - https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x
+  - OR:
+    - [ ] mono
+    - [ ] dotnet-core
   - [ ] VS Code
     - xdg-mime default Thunar.desktop inode/directory # this is super annoying
 - [ ] zoom

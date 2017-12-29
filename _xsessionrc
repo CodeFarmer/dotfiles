@@ -6,6 +6,7 @@ xrandr --output eDP-1 --mode 1920x1080
 xmodmap -e 'clear Lock'
 xmodmap -e 'keycode 66 = Control_R'
 xmodmap -e 'add Control = Control_R'
+xmodmap -e 'keycode 108 = Multi_key'
 
 # disable touchpad
 xinput set-prop 12 144 0
