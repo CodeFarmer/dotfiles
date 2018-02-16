@@ -57,6 +57,7 @@
   - [ ] paredit
   - [ ] zenburn
   - [ ] highlight-parentheses-mode
+  - [ ] lua-mode
 
 - [ ] lein
 - [ ] slack
@@ -75,3 +76,6 @@
   - [ ] yarn
     - don't use the deb if you're using nvm/n/etc
     - https://yarnpkg.com/en/docs/install#alternatives-tab
+
+- [ ] docker
+  - deb https://download.docker.com/linux/debian buster stable
