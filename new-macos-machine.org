@@ -1,0 +1,35 @@
+- [X] remap control key
+  - https://support.apple.com/kb/PH25240?locale=en_US
+
+- [-] installs
+  - [X] chrome
+    - [ ] browser install
+    - [ ] password vault
+  - [X] iterm
+  - [X] homebrew
+    - [X] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    - [X] git
+    - [X] jq
+    - [X] wget
+  - [X] emacs
+    - [X] https://emacsformacosx.com/
+    - [X] cider
+    - [X] paredit
+    - [X] highlight-parentheses
+    - [X] zenburn
+  - [X] slack
+  - [X] Blue Jeans
+  - [ ] IntelliJ
+  - [X] Dropbox
+
+- [X] dev tools
+  - [X] JDK
+  - [X] leiningen
+  - [X] Maven
+
+- [X] Set up Emacs
+  - [X] link and .alias
+  - [X] e.sh
+    - /Applications/Emacs.app/Contents/MacOS/Emacs $@ &
+
+
