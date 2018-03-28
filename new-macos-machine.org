@@ -34,4 +34,6 @@
   - [ ] e.sh
     - mv $HOME/bin/e.osx.sh $HOME/bin/e.sh
 
-
+- [ ] set up .bash_profile
+  - and .alias and .path
+  - [ ] export JAVA_OPTS='-Djava.awt.headless=true'
