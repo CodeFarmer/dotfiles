@@ -30,6 +30,6 @@
 - [ ] Set up Emacs
   - [ ] link and .alias
   - [ ] e.sh
-    - /Applications/Emacs.app/Contents/MacOS/Emacs $@ &
+    - mv $HOME/bin/e.osx.sh $HOME/bin/e.sh
 
 
