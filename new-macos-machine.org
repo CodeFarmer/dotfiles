@@ -1,0 +1,39 @@
+- [ ] remap control key
+  - https://support.apple.com/kb/PH25240?locale=en_US
+
+- [ ] installs
+  - [ ] chrome
+    - [ ] browser install
+    - [ ] password vault
+  - [ ] iterm
+  - [ ] homebrew
+    - [ ] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+    - [ ] git
+    - [ ] jq
+    - [ ] wget
+  - [ ] emacs
+    - [ ] https://emacsformacosx.com/
+    - [ ] cider
+    - [ ] paredit
+    - [ ] highlight-parentheses
+    - [ ] zenburn
+  - [ ] slack
+  - [ ] Blue Jeans
+  - [ ] IntelliJ
+  - [ ] Dropbox
+
+- [ ] dev tools
+  - [ ] JDK
+  - [ ] leiningen
+  - [ ] Maven
+
+- [ ] Set up Emacs
+  - [ ] unset ^-left and ^-right Mission Control shortcuts in Keyboard
+    system preferences so they don't interfere with paredit
+  - [ ] link and .alias
+  - [ ] e.sh
+    - mv $HOME/bin/e.osx.sh $HOME/bin/e.sh
+
+- [ ] set up .bash_profile
+  - and .alias and .path
+  - [ ] export JAVA_OPTS='-Djava.awt.headless=true'

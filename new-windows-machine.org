@@ -16,6 +16,7 @@
     - chere
     - dos2unix
     - jq
+    - bc
 
 - [ ] Install SharpKeys
   - https://github.com/randyrants/sharpkeys/releases
@@ -50,6 +51,7 @@
 - [ ] Unpack .emacs
 - [ ] Unpack bin
 - [ ] SSH key
+  - [ ] add 'db_home:  windows' line to /etc/nsswitch.conf
   - [ ] ssh-keygen
   - [ ] add to Github account
 
