@@ -17,6 +17,11 @@
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
+  - [ ] Lisp
+    - [ ] sbcl
+    - [ ] slime
+    - [ ] cl-swank
+    - [ ] cl-quicklisp
 
 - [ ] Environment
 
@@ -35,6 +40,7 @@
       - xinput list
       - xinput list-props <n>
       - xinput set-prop <n> <m> 0
+    - [ ] ditto touchscreen if needed (same xinput dance, set-prop <whatever> 144 0)
 
   - [ ] .bashrc
   - [ ] .emacs
