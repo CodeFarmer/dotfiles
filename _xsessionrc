@@ -9,7 +9,7 @@ xmodmap -e 'add Control = Control_R'
 xmodmap -e 'keycode 108 = Multi_key'
 
 # disable touchpad
-xinput set-prop 12 144 0
+xinput disable 14
 
 /usr/bin/x-terminal-emulator &
 
