@@ -64,3 +64,6 @@
 * Setup Emacs
 
 - [[file:emacs.org][orgfile]]
+
+
+#+STARTUP: showall
