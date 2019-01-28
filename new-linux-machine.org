@@ -58,13 +58,6 @@
 
 - [ ] lein
 - [ ] slack
-- [ ] dotnet
-  - https://docs.microsoft.com/en-us/dotnet/core/linux-prerequisites?tabs=netcore2x
-  - OR:
-    - [ ] mono
-    - [ ] dotnet-core
-  - [ ] VS Code
-    - xdg-mime default Thunar.desktop inode/directory # this is super annoying
 - [ ] zoom
 
 - [ ] node bollocks
