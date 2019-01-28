@@ -13,10 +13,7 @@
     - [ ] wget
   - [ ] emacs
     - [ ] https://emacsformacosx.com/
-    - [ ] cider
-    - [ ] paredit
-    - [ ] highlight-parentheses
-    - [ ] zenburn
+    - [ ] [[file:emacs.org][orgfile]]
   - [ ] slack
   - [ ] Blue Jeans
   - [ ] IntelliJ

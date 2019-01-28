@@ -53,10 +53,7 @@
 
 
 - [ ] emacs packages
-  - [ ] cider
-  - [ ] paredit
-  - [ ] zenburn
-  - [ ] highlight-parentheses-mode
+  - [[file:emacs.org][orgfile]]
   - [ ] lua-mode
 
 - [ ] lein
