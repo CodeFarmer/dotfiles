@@ -17,6 +17,11 @@
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
+  - [ ] Lisp
+    - [ ] sbcl
+    - [ ] slime
+    - [ ] cl-swank
+    - [ ] cl-quicklisp
 
 - [ ] Environment
 
@@ -33,8 +38,8 @@
     - [ ] disable trackpad
       - from https://www.nico.schottelius.org/blog/xorg-disable-touchpad-with-xinput/
       - xinput list
-      - xinput list-props <n>
-      - xinput set-prop <n> <m> 0
+      - xinput disable <n>
+    - [ ] ditto touchscreen if needed (same xinput dance)
 
   - [ ] .bashrc
   - [ ] .emacs

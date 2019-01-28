@@ -1,0 +1,6 @@
+#! /usr/bin/env bash
+
+# this is mostly for Linux, after downloading the KGS client JAR at http://www.gokgs.com/download.jsp
+
+java -jar $HOME/opt/cgoban/cgoban.jar
+
