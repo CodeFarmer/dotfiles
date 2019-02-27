@@ -2,9 +2,11 @@
   - https://support.apple.com/kb/PH25240?locale=en_US
 
 - [ ] installs
-  - [ ] chrome
+  - [ ] firefox
     - [ ] browser install
     - [ ] password vault
+    - [ ] downloadhelper
+      - don't forget license key (gmail)
   - [ ] iterm
   - [ ] homebrew
     - [ ] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
@@ -21,6 +23,8 @@
 
 - [ ] dev tools
   - [ ] JDK
+    - https://openjdk.java.net/install/
+    - unzip tarball into /Library/Java/JavaVirtualMachines/
   - [ ] leiningen
   - [ ] Maven
 
