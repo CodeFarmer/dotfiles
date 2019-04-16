@@ -25,6 +25,8 @@
   - [ ] JDK
     - https://openjdk.java.net/install/
     - unzip tarball into /Library/Java/JavaVirtualMachines/
+    - and optionally jenv
+      - nrew install jenv
   - [ ] leiningen
     - https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
   - [ ] Maven
