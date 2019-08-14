@@ -7,10 +7,10 @@
     - [ ] password vault
     - [ ] downloadhelper
       - don't forget license key (gmail)
+    - [ ] tampermonkey
   - [ ] iterm
   - [ ] homebrew
     - [ ] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-    - [ ] git
     - [ ] jq
     - [ ] wget
   - [ ] emacs
@@ -22,6 +22,8 @@
   - [ ] Dropbox
 
 - [ ] dev tools
+  - [ ] command line dev tools
+    - run 'git' from command line to kick off
   - [ ] JDK
     - https://openjdk.java.net/install/
     - unzip tarball into /Library/Java/JavaVirtualMachines/
