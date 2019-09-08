@@ -63,9 +63,7 @@
 
 * Setup Emacs
 
-- [ ] packages
-  - CIDER
-  - paredit
-  - highlight-parentheses
-  - zenburn
-- [ ] Set zenburn theme in Options and save changes
+- [[file:emacs.org][orgfile]]
+
+
+#+STARTUP: showall

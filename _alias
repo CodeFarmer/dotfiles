@@ -2,3 +2,6 @@ alias gerp=grep
 alias pd=pushd
 alias l='ls -la'
 alias e='e.sh'
+alias rot13="tr a-zA-Z n-za-mN-ZA-M"
+alias jarf=jarfind.sh
+
