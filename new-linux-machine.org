@@ -22,6 +22,9 @@
     - [ ] slime
     - [ ] cl-swank
     - [ ] cl-quicklisp
+  - [ ] ibus-mozc
+    - [ ] configure from systray widget for Japanese
+    - [ ] use system keymap
 
 - [ ] Environment
 
