@@ -1,2 +1,5 @@
 source $HOME/.alias
 source $HOME/.path
+
+EDITOR=vim
+

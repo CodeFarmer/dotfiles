@@ -32,3 +32,5 @@
 (add-hook 'slime-repl-mode-hook lispy-hook)
 
 (global-set-key (kbd "C-x C-S-f") (quote find-file-other-frame))
+
+(add-to-list 'auto-mode-alist '("\\.hla\\'" . asm-mode))
