@@ -1,8 +1,10 @@
 - [ ] packages
   - [ ] cider
+  - [ ] company
   - [ ] paredit
   - [ ] highlight-parentheses
   - [ ] zenburn
   - [ ] markdown-mode
   - [ ] magit
   - [ ] yaml-mode
+
