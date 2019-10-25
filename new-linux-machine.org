@@ -25,6 +25,9 @@
   - [ ] ibus-mozc
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
+  - [ ] firefox
+    - [ ] install
+    - [ ] xdg-settings set default-web-browser firefox.desktop
 
 - [ ] Environment
 
