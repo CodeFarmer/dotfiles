@@ -17,11 +17,6 @@
   - [ ] not in debian but are in sparky
     - [ ] dropbox
     - [ ] steam
-  - [ ] Lisp
-    - [ ] sbcl
-    - [ ] slime
-    - [ ] cl-swank
-    - [ ] cl-quicklisp
   - [ ] ibus-mozc
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
@@ -71,12 +66,17 @@
 - [ ] slack
 - [ ] zoom
 
-- [ ] node bollocks
-  - [ ] nvm
-    - https://github.com/creationix/nvm#install-script
-  - [ ] yarn
-    - don't use the deb if you're using nvm/n/etc
-    - https://yarnpkg.com/en/docs/install#alternatives-tab
-
 - [ ] docker
   - deb https://download.docker.com/linux/debian buster stable
+
+- [ ] virtualbox
+  - if running as a VM
+  - [ ] install the host stuff
+    - don't use the ISO that comes with virtualbox, it's a trap
+    - apt-get install build-essential linux-headers-`uname -r` virtualbox-guest-additions-iso
+    - mount /usr/share/virtualbox/VBoxGuestAdditions.iso /media/joel/iso -o loop
+    - /media/joel/iso/VBoxLinuxAdditions.run
+  - [ ] mount the shared folder (eg dropbox)
+    - fstab
+      - dropbox /home/joel/dropbox vboxsf uid=joel,rw 0 0
+
