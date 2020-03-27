@@ -74,7 +74,7 @@
 - [ ] whatsapp (webapp)
 
 - [ ] docker
-  - deb https://download.docker.com/linux/debian buster stable
+  - https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-repository
 
 - [ ] virtualbox
   - if running as a VM
