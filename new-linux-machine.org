@@ -6,9 +6,11 @@
     - configure lightdm from landing screen
   - [ ] xinput
   - [ ] emacs
+  - [ ] vim
+    - and set alternatives/editor, Sparky doesn't always respect $EDITOR
   - [ ] java
-    - [ ] openjdk-8-jdk
-    - [ ] openjdk-8-doc
+    - [ ] openjdk-11-jdk
+    - [ ] openjdk-11-doc
   - [ ] git
   - [ ] pulseaudio-module-bluetooth
   - [ ] gimp
@@ -34,6 +36,9 @@
       - xmodmap -e 'clear Lock'
       - xmodmap -e 'keycode 66 = Control_R' # use xev to find keycode if necessary
       - xmodmap -e 'add Control = Control_R'
+      - [ ] TODO figure out why the xmodmap calls in .xsessionrc have
+        stopped working (although they work when you do them by hand)
+
     - [ ] compose key
       - xmodmap -e 'keycode 108 = Multi_key' # xev again
     - [ ] disable trackpad
@@ -65,6 +70,8 @@
 - [ ] lein
 - [ ] slack
 - [ ] zoom
+- [ ] signal
+- [ ] whatsapp (webapp)
 
 - [ ] docker
   - deb https://download.docker.com/linux/debian buster stable
