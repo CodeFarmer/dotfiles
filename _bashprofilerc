@@ -1,5 +1,8 @@
 source $HOME/.alias
 source $HOME/.path
 
-EDITOR=vim
+export HISTSIZE=10000
+export HISTFILESIZE=10000
+
+export EDITOR=vim
 
