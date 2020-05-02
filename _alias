@@ -4,4 +4,4 @@ alias l='ls -la'
 alias e='e.sh'
 alias rot13="tr a-zA-Z n-za-mN-ZA-M"
 alias jarf=jarfind.sh
-
+alias ipytho="python3 -m IPython"
