@@ -13,9 +13,8 @@
     - [ ] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
     - [ ] jq
     - [ ] wget
-  - [ ] emacs
-    - [ ] https://emacsformacosx.com/
-    - [ ] [[file:emacs.org][orgfile]]
+    - [ ] emacs
+      - [ ] [[file:emacs.org][orgfile]]
   - [ ] slack
   - [ ] Blue Jeans
   - [ ] IntelliJ
