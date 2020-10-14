@@ -1,5 +1,6 @@
 - [ ] remap control key
-  - https://support.apple.com/kb/PH25240?locale=en_US
+- [ ] xcode-select --install
+  - if not available (sometimes happens), https://developer.apple.com/download/more/
 
 - [ ] installs
   - [ ] firefox
@@ -21,8 +22,6 @@
   - [ ] Dropbox
 
 - [ ] dev tools
-  - [ ] command line dev tools
-    - run 'git' from command line to kick off
   - [ ] JDK
     - https://openjdk.java.net/install/
     - unzip tarball into /Library/Java/JavaVirtualMachines/
