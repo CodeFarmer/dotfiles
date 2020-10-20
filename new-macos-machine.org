@@ -24,7 +24,7 @@
 
 - [ ] dev tools
   - [ ] JDK
-    - https://openjdk.java.net/install/
+    - http://jdk.java.net/archive/
     - unzip tarball into /Library/Java/JavaVirtualMachines/
     - and optionally jenv
       - nrew install jenv
