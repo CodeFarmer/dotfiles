@@ -9,12 +9,12 @@
       - don't forget license key (gmail)
     - [ ] tampermonkey
   - [ ] iterm
-  - [ ] homebrew
+  - [ ] homebcrew
     - [ ] https://docs.brew.sh/Installation
     - [ ] jq
     - [ ] wget
     - [ ] emacs
-      - brew cask install emacs --no-quarantine
+      - [ ] brew install --cask --no-quarantine emacs
       - [ ] [[file:emacs.org][orgfile]]
   - [ ] slack
   - [ ] IntelliJ
