@@ -2,6 +2,7 @@
   - desktop rolling xfce
 
 - [ ] packages
+  - [ ] libpam-gnome-keyring
   - [ ] awesome
     - configure lightdm from landing screen
   - [ ] xinput
