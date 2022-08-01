@@ -25,6 +25,7 @@
   - [ ] firefox
     - [ ] install
     - [ ] xdg-settings set default-web-browser firefox.desktop
+  - [ ] flameshot
 
 - [ ] Environment
 
@@ -32,13 +33,7 @@
     - [ ] Screen resolution
       - xrandr --output eDP-1 --mode 1920x1080 & # eDP-1 from xrandr
       - xrandr --output DP-3-1 --auto --left-of eDP-1 # second monitor, ditto
-    - [ ] caps lock key
-      - xmodmap -e 'clear Lock'
-      - xmodmap -e 'keycode 66 = Control_R' # use xev to find keycode if necessary
-      - xmodmap -e 'add Control = Control_R'
-      - [ ] TODO figure out why the xmodmap calls in .xsessionrc have
-        stopped working (although they work when you do them by hand)
-
+    - [ ] .xmodmap (in awesome rc.lua now)
     - [ ] compose key
       - xmodmap -e 'keycode 108 = Multi_key' # xev again
     - [ ] disable trackpad
@@ -61,7 +56,7 @@
       - awful.util.spawn("dropbox start")
     - [ ] blueman-applet (ditto)
     - [ ] nm-applet (ditto)
-
+    - [ ] xmodmap
 
 - [ ] emacs packages
   - [[file:emacs.org][orgfile]]
