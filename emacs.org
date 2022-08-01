@@ -8,3 +8,7 @@
   - [ ] magit
   - [ ] yaml-mode
   - [ ] comment-dwim
+- [ ] set zenburn theme
+- [ ] embiggen default font size
+  - after Customize has added the custom-set-faces stanza
+  - (custom-set-faces '(default ((t (:height 160)))))

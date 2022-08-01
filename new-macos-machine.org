@@ -1,5 +1,5 @@
-- [ ] remap control key
-  - https://support.apple.com/kb/PH25240?locale=en_US
+- [ ] xcode-select --install
+  - if not available (sometimes happens), https://developer.apple.com/download/more/
 
 - [ ] installs
   - [ ] firefox
@@ -9,25 +9,24 @@
       - don't forget license key (gmail)
     - [ ] tampermonkey
   - [ ] iterm
-  - [ ] homebrew
-    - [ ] /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  - [ ] homebcrew
+    - [ ] https://docs.brew.sh/Installation
     - [ ] jq
     - [ ] wget
     - [ ] emacs
+      - [ ] brew install --cask --no-quarantine emacs
       - [ ] [[file:emacs.org][orgfile]]
   - [ ] slack
-  - [ ] Blue Jeans
   - [ ] IntelliJ
   - [ ] Dropbox
 
 - [ ] dev tools
-  - [ ] command line dev tools
-    - run 'git' from command line to kick off
   - [ ] JDK
-    - https://openjdk.java.net/install/
+    - [ ] http://jdk.java.net/archive/
     - unzip tarball into /Library/Java/JavaVirtualMachines/
     - and optionally jenv
-      - nrew install jenv
+      - brew install jenv
+    - [ ] JDK8 from Oracle website
   - [ ] leiningen
     - https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein
   - [ ] Maven
@@ -36,15 +35,21 @@
     - https://hub.docker.com/editions/community/docker-ce-desktop-mac
 
 - [ ] Set up Emacs
-  - [ ] unset ^-left and ^-right Mission Control shortcuts in Keyboard
-    system preferences so they don't interfere with paredit
-  - [ ] ditto ^-up and ^-down so they don't screw with CIDER
   - [ ] link and .alias
   - [ ] e.sh
     - mv $HOME/bin/e.osx.sh $HOME/bin/e.sh
 
+- [ ] Allow iTerm and Terminal to run unsigned apps
+
 - [ ] set up .bash_profile
+  - TODO move this stuff to zsh
   - and .alias and .path
   - [ ] export JAVA_OPTS='-Djava.awt.headless=true'
 
-- [ ] change to Australian keyboard layout
+- [ ] change keyboard layout
+  - [ ] install Australian keyboard
+  - [ ] install Japanese keyboard
+  - [ ] unset ^-left and ^-right Mission Control shortcuts in Keyboard
+    system preferences so they don't interfere with paredit
+  - [ ] ditto ^-up and ^-down so they don't screw with CIDER
+  - [ ] remap control key
