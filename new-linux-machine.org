@@ -10,10 +10,9 @@
   - [ ] vim
     - and set alternatives/editor, Sparky doesn't always respect $EDITOR
   - [ ] java
-    - [ ] openjdk-11-jdk
-    - [ ] openjdk-11-doc
+    - [ ] openjdk-17-jdk
+    - [ ] openjdk-17-doc
   - [ ] git
-  - [ ] pulseaudio-module-bluetooth
   - [ ] gimp
   - [ ] okular
     - purely because the default to libreoffice for PDFs is so annoying
@@ -24,7 +23,6 @@
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
   - [ ] firefox
-    - [ ] install
     - [ ] xdg-settings set default-web-browser firefox.desktop
   - [ ] flameshot
 
@@ -53,11 +51,12 @@
       - https://github.com/deficient/battery-widget
     - [ ] volume control
       - https://github.com/deficient/volume-control
+      - note that the layout instruction doesn't work with our rc.lua, put it with battery monitor clause
     - [ ] dropbox
       - awful.util.spawn("dropbox start")
     - [ ] blueman-applet (ditto)
     - [ ] nm-applet (ditto)
-    - [ ] xmodmap
+    - [ ] xmodmap .xmodmap (ditto)
 
 - [ ] emacs packages
   - [[file:emacs.org][orgfile]]
