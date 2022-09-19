@@ -64,7 +64,11 @@
 
 - [ ] lein
 - [ ] slack
-- [ ] zoom
+- [ ] mullvad
+  - [ ] download
+  - [ ] mullvad login
+  - [ ] .alias entries
+- [ ] tailscale
 - [ ] signal
 - [ ] whatsapp (webapp)
 
