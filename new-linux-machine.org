@@ -24,6 +24,11 @@
     - [ ] use system keymap
   - [ ] firefox
     - [ ] xdg-settings set default-web-browser firefox.desktop
+    - [ ] ublock origin
+    - [ ] bitwarden
+    - [ ] consent-o-matic
+    - [ ] dwhelper
+    - [ ] kitten block
   - [ ] flameshot
 
 - [ ] Environment

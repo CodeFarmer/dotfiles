@@ -9,7 +9,7 @@
       - don't forget license key (gmail)
     - [ ] tampermonkey
   - [ ] iterm
-  - [ ] homebcrew
+  - [ ] homebrew
     - [ ] https://docs.brew.sh/Installation
     - [ ] jq
     - [ ] wget
