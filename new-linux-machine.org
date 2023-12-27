@@ -10,8 +10,8 @@
   - [ ] vim
     - and set alternatives/editor, Sparky doesn't always respect $EDITOR
   - [ ] java
-    - [ ] openjdk-17-jdk
-    - [ ] openjdk-17-doc
+    - [ ] openjdk-21-jdk
+    - [ ] openjdk-21-doc
   - [ ] git
   - [ ] gimp
   - [ ] okular
@@ -78,8 +78,13 @@
 - [ ] whatsapp (webapp)
 
 - [ ] docker
-  - https://docs.docker.com/install/linux/docker-ce/debian/#install-using-the-repository
+  - https://docs.docker.com/engine/install/debian/#install-using-the-repository
+  - currently compatible debian release codename is "bookworm"
 
+- [ ] awscli
+  - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+- [ ] cuda
+  
 - [ ] virtualbox
   - if running as a VM
   - [ ] install the host stuff
