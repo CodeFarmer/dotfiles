@@ -14,11 +14,18 @@
     - [ ] openjdk-21-doc
   - [ ] git
   - [ ] gimp
-  - [ ] okular
-    - purely because the default to libreoffice for PDFs is so annoying
-  - [ ] not in debian but are in sparky
-    - [ ] dropbox
+  - [ ] not in debian but in sparky
     - [ ] steam
+      - install some games to get the warning about libGLwhatever.so to go away
+  - [ ] dropbox
+    - not installable sparky at the moment, check back later
+    - apt-get install gir1.2-gtk-4.0 gir1.2-graphene-1.0
+    - dpkg --ignore-depends=libpango1.0-0 -i ./Downloads/dropbox_(WHATEVER)_amd64.deb
+      - edit /var/lib/dpkg/status to deal with the lack of libpango,
+        otherwise everything goes wrong with apt
+    - dropbox start -i
+    - consider contributing
+    - [ ] https://www.dropbox.com/en_GB/install-linux
   - [ ] ibus-mozc
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
@@ -37,7 +44,6 @@
     - [ ] Screen resolution
       - xrandr --output eDP-1 --mode 1920x1080 & # eDP-1 from xrandr
       - xrandr --output DP-3-1 --auto --left-of eDP-1 # second monitor, ditto
-    - [ ] .xmodmap (in awesome rc.lua now)
     - [ ] compose key
       - xmodmap -e 'keycode 108 = Multi_key' # xev again
     - [ ] disable trackpad
@@ -72,8 +78,9 @@
 - [ ] mullvad
   - [ ] download
   - [ ] mullvad login
-  - [ ] .alias entries
 - [ ] tailscale
+  - install script worketh not, use the bookworm one
+    - https://tailscale.com/download/linux
 - [ ] signal
 - [ ] whatsapp (webapp)
 
@@ -85,14 +92,5 @@
   - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
 - [ ] cuda
   
-- [ ] virtualbox
-  - if running as a VM
-  - [ ] install the host stuff
-    - don't use the ISO that comes with virtualbox, it's a trap
-    - apt-get install build-essential linux-headers-`uname -r` virtualbox-guest-additions-iso
-    - mount /usr/share/virtualbox/VBoxGuestAdditions.iso /media/joel/iso -o loop
-    - /media/joel/iso/VBoxLinuxAdditions.run
-  - [ ] mount the shared folder (eg dropbox)
-    - fstab
-      - dropbox /home/joel/dropbox vboxsf uid=joel,rw 0 0
+
 
