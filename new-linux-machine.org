@@ -14,6 +14,7 @@
     - [ ] openjdk-21-doc
   - [ ] git
   - [ ] gimp
+  - [ ] openssh-server
   - [ ] not in debian but in sparky
     - [ ] steam
       - install some games to get the warning about libGLwhatever.so to go away
@@ -41,7 +42,7 @@
 - [ ] Environment
 
   - [ ] .xsessionrc
-    - [ ] Screen resolution
+    - [ ] Screen resolution for laptop
       - xrandr --output eDP-1 --mode 1920x1080 & # eDP-1 from xrandr
       - xrandr --output DP-3-1 --auto --left-of eDP-1 # second monitor, ditto
     - [ ] compose key
@@ -67,6 +68,7 @@
       - awful.util.spawn("dropbox start")
     - [ ] blueman-applet (ditto)
     - [ ] nm-applet (ditto)
+    - [ ] flameshot (ditto)
     - [ ] xmodmap .xmodmap (ditto)
 
 - [ ] emacs packages
