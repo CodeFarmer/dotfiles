@@ -22,3 +22,6 @@
   - use lsblk to get device names if you still want to use LABEL=
     instead of UUID=
   - [ ] Go back and expose them in /etc/samba/smb.conf if necessary
+
+- [ ] docker
+  - https://docs.docker.com/engine/install/debian/#install-using-the-repository
