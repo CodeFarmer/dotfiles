@@ -25,3 +25,7 @@
 
 - [ ] docker
   - https://docs.docker.com/engine/install/debian/#install-using-the-repository
+
+- [ ] tailscale
+  - https://tailscale.com/download/linux/debian-bookworm
+    
