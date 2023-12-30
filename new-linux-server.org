@@ -1,0 +1,24 @@
+- [ ] Debian netinstall ISO
+  - https://www.debian.org/download
+  - can just cp it directly to /dev/sdb or whatever
+  - installer has handy checkboxes for sshd and httpd, which is nice
+    - [ ] httpd
+    - [ ] sshd
+  - [ ] (optional) xfce for somebody's convenience at the start
+  - blank root password for sudo-only
+
+- [ ] Samba
+  - https://wiki.debian.org/Samba/ServerSimple
+  - [ ] get running
+  - [ ] smbpasswd add user (optional)
+  - [ ] guest access to paths (optional)
+
+- [ ] add ssh keys to sudoer account
+
+- [ ] configure USB drives if you got 'em
+  - [ ] fstab
+    - https://wiki.archlinux.org/title/fstab
+  - use blkid to get UUIDs
+  - use lsblk to get device names if you still want to use LABEL=
+    instead of UUID=
+  - [ ] Go back and expose them in /etc/samba/smb.conf if necessary
