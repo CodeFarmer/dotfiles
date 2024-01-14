@@ -13,6 +13,8 @@
   - [ ] smbpasswd add user (optional)
   - [ ] guest access to paths (optional)
 
+- [ ] minidlna
+
 - [ ] add ssh keys to sudoer account
 
 - [ ] configure USB drives if you got 'em
