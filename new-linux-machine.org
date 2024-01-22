@@ -92,7 +92,9 @@
 
 - [ ] awscli
   - https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html
+
 - [ ] cuda
-  
-
-
+  - https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html#debian
+    - choose network repo installation method
+    - "debian12" works as cuda-keyring distro key
+  - install https://github.com/nvidia/cuda-samples
