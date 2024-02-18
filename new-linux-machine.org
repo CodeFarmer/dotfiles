@@ -98,3 +98,8 @@
     - choose network repo installation method
     - "debian12" works as cuda-keyring distro key
   - install https://github.com/nvidia/cuda-samples
+
+- [ ] Terraform
+  - https://developer.hashicorp.com/terraform/install?product_intent=terraform#linux
+  - https://discuss.hashicorp.com/t/the-repository-https-apt-releases-hashicorp-com-focal-release-does-not-have-a-release-file/47790/13
+
