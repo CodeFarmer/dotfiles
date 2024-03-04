@@ -51,3 +51,5 @@
 (define-key global-map "\M-Q" 'unfill-paragraph)
 
 (define-key global-map "\M-/" 'comment-dwim)
+
+(setq byte-compile-warnings '(not docstrings))
