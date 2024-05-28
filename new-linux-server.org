@@ -7,6 +7,8 @@
   - [ ] (optional) xfce for somebody's convenience at the start
   - blank root password for sudo-only
 
+- [ ] screen
+  
 - [ ] Samba
   - https://wiki.debian.org/Samba/ServerSimple
   - [ ] get running

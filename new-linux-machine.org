@@ -15,6 +15,7 @@
   - [ ] git
   - [ ] gimp
   - [ ] openssh-server
+  - [ ] screen
   - [ ] not in debian but in sparky
     - [ ] steam
       - install some games to get the warning about libGLwhatever.so to go away
