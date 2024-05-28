@@ -59,6 +59,10 @@
 
   - [ ] config/awesome/rc.lua
     - template from /etc/xdg/awesome/rc.lua
+    - correctly tiling browser:
+      { rule = { class = "firefox" },
+        properties = { opacity = 1, maximized = false, floating = false } },
+	  
     - [ ] switch opening two layouts
     - [ ] battery monitor
       - https://github.com/deficient/battery-widget
