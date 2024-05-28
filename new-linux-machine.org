@@ -16,6 +16,7 @@
   - [ ] gimp
   - [ ] openssh-server
   - [ ] screen
+  - [ ] syncthing
   - [ ] not in debian but in sparky
     - [ ] steam
       - install some games to get the warning about libGLwhatever.so to go away
