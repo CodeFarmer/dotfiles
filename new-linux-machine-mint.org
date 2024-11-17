@@ -1,0 +1,32 @@
+- [ ] Linux Mint 22 xfce
+
+- [ ] driver manager
+  - [ ] install stable nvdia driver
+
+- [ ] packages
+  - [ ] emacs
+  - [ ] vim
+  - [ ] java
+    - openjdk-21-jdk
+    - openjdk-21-doc
+  - [ ] git
+  - [ ] gimp
+  - [ ] openssh-server
+  - [ ] syncthing
+  - [ ] minidlna
+  - [ ] vlc
+  - [ ] slack
+  - [ ] steam
+  - [ ] firefox
+    - [ ] xdg-settings set default-web-browser firefox.desktop
+    - [ ] ublock origin
+    - [ ] bitwarden
+    - [ ] consent-o-matic
+    - [ ] dwhelper
+    - [ ] kitten block
+      
+- [ ] other apps
+  - [ ] signal
+  - [ ] tailscale
+  - [ ] mullvad
+    - 'noble' dist works
