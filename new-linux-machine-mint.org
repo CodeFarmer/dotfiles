@@ -30,3 +30,5 @@
   - [ ] tailscale
   - [ ] mullvad
     - 'noble' dist works
+  - [ ] skype
+    - [[https://web.archive.org/web/20240823092712/https://repo.skype.com/latest/skypeforlinux-64.deb][internet archive DEB file]]
