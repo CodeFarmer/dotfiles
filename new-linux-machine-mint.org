@@ -17,6 +17,10 @@
   - [ ] vlc
   - [ ] slack
   - [ ] steam
+  - [ ] awesome
+  - [ ] xss-lock
+  - [ ] slock
+  - [ ] xautolock
   - [ ] firefox
     - [ ] xdg-settings set default-web-browser firefox.desktop
     - [ ] ublock origin
@@ -32,3 +36,24 @@
     - 'noble' dist works
   - [ ] skype
     - [[https://web.archive.org/web/20240823092712/https://repo.skype.com/latest/skypeforlinux-64.deb][internet archive DEB file]]
+
+- [ ] config/awesome/rc.lua
+  - template from /etc/xdg/awesome/rc.lua
+  - correctly tiling browser:
+    { rule = { class = "firefox" },
+      properties = { opacity = 1, maximized = false, floating = false } },
+	  
+  - [ ] switch opening two layouts
+  - [ ] battery monitor
+    - https://github.com/deficient/battery-widget
+  - [ ] volume control
+    - https://github.com/deficient/volume-control
+    - note that the layout instruction doesn't work with our rc.lua, put it with battery monitor clause
+  - [ ] awful.util.spawn("...")
+    - [ ] blueman-applet
+    - [ ] nm-applet
+    - [ ] flameshot
+    - [ ] xmodmap .xmodmap
+    - [ ] xss-lock slock
+    - [ ] xautolock -time 2 -locker slock
+    - [ ] syncthing serve --no-browser

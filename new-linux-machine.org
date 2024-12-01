@@ -20,15 +20,6 @@
   - [ ] not in debian but in sparky
     - [ ] steam
       - install some games to get the warning about libGLwhatever.so to go away
-  - [ ] dropbox
-    - not installable sparky at the moment, check back later
-    - apt-get install gir1.2-gtk-4.0 gir1.2-graphene-1.0
-    - dpkg --ignore-depends=libpango1.0-0 -i ./Downloads/dropbox_(WHATEVER)_amd64.deb
-      - edit /var/lib/dpkg/status to deal with the lack of libpango,
-        otherwise everything goes wrong with apt
-    - dropbox start -i
-    - consider contributing
-    - [ ] https://www.dropbox.com/en_GB/install-linux
   - [ ] ibus-mozc
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
@@ -76,6 +67,8 @@
     - [ ] nm-applet (ditto)
     - [ ] flameshot (ditto)
     - [ ] xmodmap .xmodmap (ditto)
+    - [ ] xss-lock slock
+    - [ ] xautolock -time 2 -locker slock
 
 - [ ] emacs packages
   - [[file:emacs.org][orgfile]]
