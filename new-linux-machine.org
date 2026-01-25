@@ -32,6 +32,9 @@
     - [ ] kitten block
   - [ ] flameshot
 
+  - if including minecraft-launcher from DEB, be aware of
+    https://bugs.mojang.com/browse/MCL/issues/MCL-25152
+    
 - [ ] Environment
 
   - [ ] .xsessionrc
