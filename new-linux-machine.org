@@ -1,8 +1,4 @@
-- [ ] Sparky Linux
-  - desktop rolling xfce
-
 - [ ] packages
-  - [ ] libpam-gnome-keyring
   - [ ] awesome
     - configure lightdm from landing screen
   - [ ] xinput
@@ -17,9 +13,7 @@
   - [ ] openssh-server
   - [ ] screen
   - [ ] syncthing
-  - [ ] not in debian but in sparky
-    - [ ] steam
-      - install some games to get the warning about libGLwhatever.so to go away
+  - [ ] steam
   - [ ] ibus-mozc
     - [ ] configure from systray widget for Japanese
     - [ ] use system keymap
@@ -32,10 +26,14 @@
     - [ ] kitten block
   - [ ] flameshot
 
+  - [ ] fonts-nota
+    
 - [ ] Environment
 
   - [ ] .xsessionrc
     - [ ] Screen resolution for laptop
+      - xrandr --output HDMI-0 --mode 2560x1440 --rate 143
+	- main 1440p monitor
       - xrandr --output eDP-1 --mode 1920x1080 & # eDP-1 from xrandr
       - xrandr --output DP-3-1 --auto --left-of eDP-1 # second monitor, ditto
     - [ ] compose key
@@ -76,14 +74,11 @@
 
 - [ ] lein
 - [ ] slack
-- [ ] mullvad
-  - [ ] download
-  - [ ] mullvad login
+- [ ] vpn du jour
 - [ ] tailscale
   - install script worketh not, use the bookworm one
     - https://tailscale.com/download/linux
 - [ ] signal
-- [ ] whatsapp (webapp)
 
 - [ ] docker
   - https://docs.docker.com/engine/install/debian/#install-using-the-repository
@@ -102,3 +97,4 @@
   - https://developer.hashicorp.com/terraform/install?product_intent=terraform#linux
   - https://discuss.hashicorp.com/t/the-repository-https-apt-releases-hashicorp-com-focal-release-does-not-have-a-release-file/47790/13
 
+- [ ] NetHack
