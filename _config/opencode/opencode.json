@@ -1,0 +1,104 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+
+  "providers": {
+    "cloud_router": {
+      "name": "Cloud Router (OpenRouter)",
+      "env": ["OPENROUTER_API_KEY"],
+      "package": "@opencode/ai/providers/openrouter",
+      "canonical": "openrouter",
+      "settings": {
+        "baseURL": "https://openrouter.ai/api/v1"
+      },
+      "models": {
+        "claude-sonnet-latest": {
+          "modelID": "~anthropic/claude-sonnet-latest",
+          "name": "Claude Sonnet Latest"
+        },
+        "z-ai/glm-flash-latest": {
+          "modelID": "~z-ai/glm-flash-latest",
+          "name": "GLM Flash Latest"
+        },
+        "z-ai/glm-5.3": {
+          "modelID": "z-ai/glm-5.3",
+          "name": "GLM-5.3"
+        },
+        "anthropic/claude-opus-5.5": {
+          "modelID": "anthropic/claude-opus-5.5",
+          "name": "Claude Opus 5.5"
+        },
+        "anthropic/claude-fable-5.1": {
+          "modelID": "anthropic/claude-fable-5.1",
+          "name": "Claude Fable 5.1"
+        }
+      }
+    },
+    "ollama": {
+      "settings": {
+        "baseURL": "http://localhost:11434/v1"
+      },
+      "models": {
+        "qwen2.5-coder:14b": {
+          "name": "Qwen2.5 Coder 14B (local)"
+        },
+        "qwen2.5-coder:32b": {
+          "name": "Qwen2.5 Coder 32B (local)"
+        },
+        "qwen3-coder:30b": {
+          "name": "Qwen3 Coder 30B (local)"
+        },
+        "qwen3.6:latest": {
+          "name": "Qwen3.6 Latest (local)"
+        }
+      }
+    }
+  },
+
+  "commands": {
+    "tier1": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 1: Local Qwen2.5 Coder 32B (RTX 3090)",
+      "model": "ollama/qwen2.5-coder:32b"
+    },
+    "tier2": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 2: GLM-5.3 Flash Free via OpenCode (free)",
+      "model": "opencode/glm-5.3-flash-free"
+    },
+    "tier3": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 3: GLM-5.3 via OpenRouter",
+      "model": "cloud_router/z-ai/glm-5.3"
+    },
+    "tier4": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 4: Claude Sonnet Latest via OpenRouter",
+      "model": "cloud_router/~anthropic/claude-sonnet-latest"
+    },
+    "tier5": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 5: Claude Opus 5.5 via OpenRouter",
+      "model": "cloud_router/anthropic/claude-opus-5.5"
+    },
+    "tier6": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 6: Claude Fable 5.1 via OpenRouter",
+      "model": "cloud_router/anthropic/claude-fable-5.1"
+    }
+  },
+
+  "agents": {
+    "reviewer": {
+      "description": "Reviews code and pending changes for correctness bugs, regressions, edge cases, and security issues. Read-only; runs on Claude Opus 5.5 regardless of session model.",
+      "mode": "subagent",
+      "model": "openrouter/anthropic/claude-opus-5.5",
+      "system": "You are a code reviewer. Inspect pending changes with git diff / git log and read the surrounding code for context. Look for correctness bugs, regressions, unhandled edge cases, and security issues. Report findings in severity order, each with a file and line reference and a one-line explanation. Propose concrete fixes as diffs in your report, but do not modify any files: you review, you do not implement. End with a short overall verdict.",
+      "permissions": [
+        { "action": "edit", "resource": "*", "effect": "deny" },
+        { "action": "subagent", "resource": "*", "effect": "deny" }
+      ]
+    }
+  },
+
+  "model": "cloud_router/~anthropic/claude-sonnet-latest"
+}
