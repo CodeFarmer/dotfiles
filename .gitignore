@@ -1,0 +1,9 @@
+# editor backups
+*~
+*.bak
+#*#
+.#*
+
+# lock files
+*.lock
+.~lock.*#
