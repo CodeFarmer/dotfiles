@@ -23,6 +23,10 @@
           "modelID": "z-ai/glm-5.3",
           "name": "GLM-5.3"
         },
+        "moonshotai/kimi-k3.1-pro": {
+          "modelID": "moonshotai/kimi-k3.1-pro",
+          "name": "Kimi K3.1 Pro"
+        },
         "anthropic/claude-opus-5.5": {
           "modelID": "anthropic/claude-opus-5.5",
           "name": "Claude Opus 5.5"
@@ -72,17 +76,22 @@
     },
     "tier4": {
       "template": "$ARGUMENTS",
-      "description": "Tier 4: Claude Sonnet Latest via OpenRouter",
-      "model": "cloud_router/~anthropic/claude-sonnet-latest"
+      "description": "Tier 4: Kimi K3.1 Pro via OpenRouter",
+      "model": "cloud_router/moonshotai/kimi-k3.1-pro"
     },
     "tier5": {
       "template": "$ARGUMENTS",
-      "description": "Tier 5: Claude Opus 5.5 via OpenRouter",
-      "model": "cloud_router/anthropic/claude-opus-5.5"
+      "description": "Tier 5: Claude Sonnet Latest via OpenRouter",
+      "model": "cloud_router/claude-sonnet-latest"
     },
     "tier6": {
       "template": "$ARGUMENTS",
-      "description": "Tier 6: Claude Fable 5.1 via OpenRouter",
+      "description": "Tier 6: Claude Opus 5.5 via OpenRouter",
+      "model": "cloud_router/anthropic/claude-opus-5.5"
+    },
+    "tier7": {
+      "template": "$ARGUMENTS",
+      "description": "Tier 7: Claude Fable 5.1 via OpenRouter",
       "model": "cloud_router/anthropic/claude-fable-5.1"
     }
   },
@@ -100,5 +109,5 @@
     }
   },
 
-  "model": "cloud_router/~anthropic/claude-sonnet-latest"
+  "model": "cloud_router/claude-sonnet-latest"
 }
